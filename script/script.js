@@ -1,23 +1,4 @@
 
-// var app = angular.module('myModule', []);
-// // This is declaring a module. More on this in a moment
-//
-// app.controller('myController', function($scope){
-//   $scope.chores = ['Dishes', 'Floors', 'Lauandry', 'Make Bed'];
-//
-//   $scope.addChore= function(){
-//     $scope.chores.push($scope.choreToAdd);
-//     // $scope.choreToAdd = " ";
-//   };
-//   $scope.removeChore = function(chore){
-//     var index = $scope.chores.indexOf(chore);
-//     $scope.chores.splice(index, 1);
-//   };
-// });
-
-
-
-
 
 var app = angular.module('toDoModule', []);
 
