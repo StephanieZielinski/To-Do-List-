@@ -1,0 +1,116 @@
+
+body {
+	margin: 40px;
+	background-color: #DAA520; /*yellow*/
+	font-family: 'Handlee', cursive;
+}
+
+#container {
+	padding: 10px;
+	background-color: #C1DBC0;
+  border-radius: 10px;
+	border: 15px solid #87CEFA;
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+img {
+	width: 75%;
+	border-radius: 5px;
+	box-shadow: 5px 5px #87CEFA;
+	margin: 20px;
+}
+
+h1 {
+	color: #dc143c;
+	font-family: 'Handlee', cursive;
+	font-size: 5em;
+}
+
+h2 {
+	color: #dc142c;
+	font-family:
+}
+
+/* ul {
+	width: 80%;
+	text-align: left;
+	margin: auto;
+}
+li {
+	font-size: 1.25em;
+} */
+
+#checklist {
+	text-align: left;
+	width: 80%;
+	margin: auto;
+}
+
+#todoitem {
+	font-size: 1.5em;
+	text-align: left;
+}
+
+input[type=checkbox] {
+	transform: scale(1.5);
+}
+
+input[type=submit]{
+	font-family: 'Satisfy', cursive;
+	font-size: 1.25em;
+	padding: 3px;
+	margin: 10px;
+	width: 80%;
+}
+
+input[type=text]{
+	font-family: 'Satisfy', cursive;
+	font-size: 1.25em;
+	padding: 3px;
+	margin: 10px;
+	width: 80%;
+}
+
+#button {
+	background-color: #87CEFA;
+	color: white;
+	box-shadow: 1px 1px #CFEBFD;
+}
+
+#button:hover {
+	background-color: #CFEBFD;
+	opacity: inherit;
+}
+
+@media(max-width:1000px) {
+	#container {
+		width: 80%;
+	}
+
+}
+
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+
+
+a {
+ text-decoration: none;
+}
